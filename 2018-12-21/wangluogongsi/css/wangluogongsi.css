@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    min-width: 1000px;
+}
+.box {
+    background: #007ae1;
+}
+.w1000 {
+    width: 1000px;
+    margin: auto;
+}
+.header span {
+    color: #fff;
+    font: 12px/32px "宋体";
+}
+.header a {
+    display: block;
+    float: right;
+    font: 12px/32px "宋体";
+    color: #fff;
+    margin-right: 22px;
+}
+.header a:last-child {
+    margin-right: 31px;
+}
+.box1 {
+    background: #eee;
+}
+.nav {
+    height: 97px;
+    border: transparent 1px solid;
+    line-height: 97px;
+    font-size: 0px;
+}
+.nav i {
+    display: block;
+    width: 168px;
+    height: 57px;
+    float: left;
+    background: url("../img/log-4.png");
+    margin-top: 21px;
+    margin-left: 25px;
+    margin-right: 85px;
+}
+.nav a {
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    margin-right: 53px;
+    color: #494949;
+    padding-bottom: 4px;
+}
+.nav a:last-child {
+    margin-right: 0;
+}
+.nav .right {
+    margin-right: 44px;
+}
+.nav a:hover {
+    color: #007ae1;
+    border-bottom: #007ae1 2px solid;
+}
+.box2 {
+    height: 514px;
+    background-image: url("../img/beijing.png");
+    background-position: center 0;
+    border: transparent 1px solid;
+    position: relative;
+}
+.box2 ul {
+    margin-top: 491px;
+    margin-left: 50%;
+    position: absolute;
+    left: -120px;
+}
+.box2 ul li {
+    width: 61px;
+    height: 5px;
+    background: #d8d8d8;
+    float: left;
+    margin-right: 19px;
+    border-radius: 3px;
+}
+.box2 ul li:last-child{
+    background: #f00;
+}
+.box2 ul li:hover {
+    background: #f00;
+}
+.box3{
+    height: 498px;
+    background-image: url("../img/beijing-1.jpg");
+    background-position: center 0;
+}
+.brief ,.logo,.open,.menu{
+    height: 498px;
+    border: transparent 1px solid;
+    text-align: center;
+    color: #fff;
+}
+.brief h3,
+.logo h3,.open h3,.menu h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "microsoft yahei";
+    text-align: left;
+    position: relative;
+    font-weight: normal;
+}
+.brief h3 span,
+.logo h3 span,
+.open h3 span,
+.menu h3 span{
+    font-size: 18px;
+    margin-left: 12px;
+}
+.brief h3 img,
+.logo h3 img,
+.open h3 img,
+.menu h3 img{
+    position: absolute;
+    left: 244px;
+}
+.brief h2 {
+    margin-top: 45px;
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-family: "microsoft yahei";
+    font-weight: normal;
+}
+.brief p {
+    width: 900px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: "microsoft yahei";
+    margin: auto;
+    text-indent: 2em;
+}
+.box4 {
+    height: 554px;
+    background-image: url("../img/beijing-4.png");
+    background-position: center 0;
+}
+.logo {
+    height: 554px;
+}
+.logo ul {
+    margin-top: 72px;
+    margin-left: 20px;
+    height: 187px;
+}
+.logo ul li {
+    width: 171px;
+    height: 187px;
+    float: left;
+    margin-right: 25px;
+    background: #4db5f7;
+}
+.logo ul img{
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+.logo ul span{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+.logo ul li:nth-child(2){
+    background: #f7b449;
+}
+.logo ul li:nth-child(3){
+    background: #75c273;
+}
+.logo ul li:nth-child(4){
+    background: #ff5253;
+}
+.logo ul li:nth-child(5){
+    background: #7265ab;
+}
+.box4-1 {
+    height: 137px;
+    background: url("../img/moban.png");
+    margin-top: 58px;
+    position: relative;
+}
+.box4-1 h2 {
+    width: 165px;
+    font-size: 32px;
+    color: #585858;
+    font-family: "microsoft yahei";
+    text-align: left;
+    margin-left: 28px;
+    padding-top: 22px;
+}
+.box4-1 p{
+    width: 660px;
+    color: #b1b1b1;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    text-align: left;
+    margin-left: 31px;
+    line-height: 30px;
+}
+.box4-1 a {
+    display: block;
+    width: 84px;
+    height: 52px;
+    line-height: 52px;
+    position: absolute;
+    top: 39px;
+    left: 768px;
+    font-size: 21px;
+    color: #fff;
+    font-family: "microsoft yahei";
+    padding: 0px 27px 0px 83px;
+}
+.box5{
+    height: 729px;
+    background: url("../img/beijing-2.jpg");
+    background-position: center 0;
+    position: relative;
+}
+.box5 a:first-child {
+    position: absolute;
+    left: 80px;
+}
+.box5>a {
+    position: absolute;
+    top: 392px;
+    right: 80px;
+}
+.open {
+    height: 729px;
+}
+.open ul{
+    height: 252px;
+    margin-top: 62px;
+}
+.open ul li{
+    width: 308px;
+    height: 214px;
+    float: left;
+    margin-right: 38px;
+}
+.open ul li:last-child{
+    margin-right: 0;
+}
+.open ul:last-child{
+    margin-top: 38px;
+}
+.open ul span {
+    font-size: 22px;
+    font-family: "microsoft yahei";
+    margin-top-top: 16px;
+}
+.box6 {
+    width: 100%;
+    height: 514px;
+    background: url("../img/beijing-3.jpg");
+    background-position: center 0;
+}
+.menu {
+    height: 514px;
+}
+.menu ul {
+    width: 320px;
+    margin-left: 11px;
+    float: left;
+}
+.menu ul li {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "microsoft yahei";
+    text-align: left;
+}
+.menu ul li:first-child {
+    font-size: 28px;
+    height: 89px;
+    line-height: 89px;
+    text-align: left;
+}
+.menu ul li span {
+    font-size: 14px;
+    padding-left: 3px;
+}
+.menu .ul-menu {
+    width: 99px;
+    margin-left: 42px;
+}
+.menu .ul-menu li:first-child {
+    font-size: 16px;
+    text-align: right;
+}
+.menu .ul-menu-1 {
+    margin-left: 57px;
+}
+.box7 {
+    background: #eee;
+}
+.footer {
+    height: 221px;
+    position: relative;
+}
+.footer p {
+    width: 125px;
+    position: absolute;
+    top: 41px;
+    left: 16px;
+}
+.footer p i {
+    display: block;
+    width: 21px;
+    height: 21px;
+    float: left;
+    background: url("../img/tuceng-1.png");
+    margin-top: 5px;
+}
+.footer p span {
+    font-size: 24px;
+    font-family: "microsoft yahei";
+    color: #027cc5;
+    padding-left: 6px;
+}
+.box7-1 {
+    height: 74px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: 60px;
+    border-radius: 10px;
+}
+.box7-1 i {
+    float: left;
+    margin: 25px 27px 25px 27px;
+}
+.box7-1 .right {
+    float: right;
+}
+.box7-1 a {
+    display: block;
+    float: left;
+    margin-top: 25px;
+}
+.box7-1 .log-1 {
+    height: 34px;
+    width: 181px;
+    background: url("../img/log-2.png");
+}
+.box7-1 a:nth-child(3) {
+    width: 161px;
+    height: 45px;
+    background: url("../img/log-1.png");
+    margin-top: 14px;
+    margin-left: 58px;
+}
+.box7-1 a:nth-child(4) {
+    width: 140px;
+    height: 40px;
+    background: url("../img/log.png");
+    margin-top: 19px;
+    margin-left: 78px;
+}
+.box7-1 a:nth-child(5) {
+    width: 162px;
+    height: 32px;
+    background: url("../img/log-3.png");
+    margin-top: 28px;
+    margin-left: 78px;
+}
+.box8 {
+    background: #0a98e0;
+}
+.bottom {
+    height: 111px;
+    text-align: center;
+    position: relative;
+}
+.bottom p {
+    width: 704px;
+    font-size: 12px;
+    font-family: "宋体";
+    position: absolute;
+    top: 29px;
+    left: 150px;
+    color: #fff;
+}
